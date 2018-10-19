@@ -162,7 +162,7 @@ function create_config( )
     "core",
     "plugins"
     },
-    sudo_users = {465511496,616338753},--Sudo users
+    sudo_users = {465511496,570586758},--Sudo users
     admins = {},
     disabled_channels = {},
     moderation = {data = ''..BeyondTeam..'/data/moderation.json'},
