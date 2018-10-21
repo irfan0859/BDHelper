@@ -175,7 +175,7 @@ function create_config( )
 
 
 *》Our channel :*
-》[BeyondTeam](Telegram.Me/Bfcanal)
+》[BfcanalTeam](Telegram.Me/Bfcanal)
 
 ]],
   }
