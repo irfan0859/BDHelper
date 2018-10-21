@@ -1,6 +1,6 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "469622025:AAE99IeFajn7R6I5AX8tWivei6ZeO-6wQoo" --Put You Token Here
+bot_token = "469622025:AAF_ugZY2rTSsuIpi_ogh_tkVCieiLmCaXM" --Put You Token Here
 send_api = "https://api.telegram.org/bot"..bot_token
 sudo_id = 465511496
 require('./bot/methods')
@@ -162,28 +162,21 @@ function create_config( )
     "core",
     "plugins"
     },
-    sudo_users = {465511496,570586758},--Sudo users
+    sudo_users = {465511496,616338753},--Sudo users
     admins = {},
     disabled_channels = {},
     moderation = {data = ''..BeyondTeam..'/data/moderation.json'},
-    info_text = [[*》Beyond Helper Bot V1.5*
-`》An helper bot of` *BDReborn* `based on` *BDMessenger*
+    info_text = [[*》Bfcanal Helper Bot V1.5*
+`》An helper bot of` *BfReborn* `based on` *BfMessenger*
 
-》[Beyond Helper](https://github.com/BeyondTeam/BDHelper)
 
 *》Admins :*
-*》Founder & Developer :* [SoLiD](Telegram.Me/SoLiD)
-_》Developer :_ [ToOfan](Telegram.Me/ToOfan)
-_》Developer & Sponser :_ [MAKAN](Telegram.Me/MAKAN)
+*》Founder & Developer :* [SoLiD](Telegram.Me/hacker_la)
 
-*》Special thanks to :*
-》[Amir Bagheri](Telegram.Me/CodeLua)
 
 *》Our channel :*
-》[BeyondTeam](Telegram.Me/BeyondTeam)
+》[BeyondTeam](Telegram.Me/Bfcanal)
 
-*》Our Site :*
-》[BeyondTeam](BeyondTeam.ir)
 ]],
   }
   serialize_to_file(config, './data/config.lua')
